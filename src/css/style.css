@@ -2,11 +2,11 @@ body{
   max-width: 1440px;
 }
 
+/*Menu Header*/
 .cabecalho {
   padding: 30px 15px;
   position: relative;
 }
-
 .cabecalho .logo{
   background: url(../images/logo.jpg) center center no-repeat;
   width: 85px;
@@ -16,7 +16,6 @@ body{
 .cabecalho .logo h1 {
   font-size: 0;
 }
-
 .cabecalho nav{
   display: inline-block;
   position: absolute;
@@ -30,4 +29,19 @@ body{
 }
 .cabecalho ul li a:hover{
   font-weight: bold;
+}
+
+.painel {
+  background: url(../images/painel.jpg) center center no-repeat;
+  height: 600px;
+}
+.painel h2 {
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  /*Eixo vertical, alinhando ao centro com -50%*/
+  transform: translateY(-50%);
 }
